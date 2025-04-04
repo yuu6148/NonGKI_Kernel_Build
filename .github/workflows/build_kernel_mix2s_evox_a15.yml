@@ -150,7 +150,7 @@ jobs:
 
           # Backport Testing
           cd device_kernel
-          mv /tmp/backport_set_memory.patch ./
+          mv /tmp/Patches/backport_set_memory.patch ./
           patch -p1 < backport_set_memory.patch
 
       - name: Set KSU and SUSFS for DEFCONFIG
