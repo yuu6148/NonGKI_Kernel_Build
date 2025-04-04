@@ -150,8 +150,8 @@ jobs:
 
           # Backport Testing
           cd device_kernel
-          wget https://github.com/KanishkTheDerp/msm-4.9/commit/bf067ef87dfdfdb84373814765afaa6eb0228693.patch -o testing.patch
-          patch -p1 < testing.patch
+          mv /tmp/backport_set_memory.patch ./
+          patch -p1 < backport_set_memory.patch
 
       - name: Set KSU and SUSFS for DEFCONFIG
         run: |
