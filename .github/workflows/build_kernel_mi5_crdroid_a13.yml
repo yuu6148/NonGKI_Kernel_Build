@@ -1,4 +1,4 @@
-name: Build Kernel Template (Cannot be used for compilation directly)
+name: Build Kernel Xiaomi 5 (Crdroid 9 A13) With KSU
 on:
   workflow_call:
   workflow_dispatch:
