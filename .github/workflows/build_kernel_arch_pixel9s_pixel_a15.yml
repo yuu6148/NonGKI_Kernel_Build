@@ -411,7 +411,7 @@ jobs:
           cd $GITHUB_WORKSPACE/device_kernel/
           cp susfs4ksu/kernel_patches/50_add_susfs_in_kernel-$KERNEL_VERSION.patch ./
 
-          patch -p1 < 50_add_susfs_in_kernel-${{ env.KERNEL_VERSION }}.patch || true
+          patch -p1 < 50_add_susfs_in_gki-android14-${{ env.KERNEL_VERSION }}.patch || true
 
           if [[ "${{ env.KERNELSU_NAME }}"  == "KernelSU-Next" ]]; then
             if [[ "${{ env.KERNELSU_SOURCE }}" =~ ".sh" && "${{ env.KERNELSU_BRANCH }}" =~ "susfs" ]]; then
