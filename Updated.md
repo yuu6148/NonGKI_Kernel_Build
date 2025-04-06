@@ -1,4 +1,7 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 1**
+    - 修正 小米5 YAML的标题错误
+
 - **Ver.1.4**
     - 增加 生成DTBO 的新方法
     - 增加 SukiSU-Ultra KPM 注入功能（有限）

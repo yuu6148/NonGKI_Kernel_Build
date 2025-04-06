@@ -1,4 +1,4 @@
-name: Build Kernel Arch Template (Cannot be used for compilation directly)
+name: Build Kernel Arch Xiaomi 5 (Crdroid A13) with KSU
 on:
   workflow_call:
   workflow_dispatch:
