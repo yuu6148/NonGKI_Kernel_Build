@@ -1,4 +1,9 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 2**
+    - 增加 谷歌Pixel 9 Series 设备
+    - 对 Arch Linux 示例YAML 增加rustup
+    - 增加 支持列表 部分词条
+
 - **Ver.1.4 Fixed 1**
     - 修正 小米5 YAML的标题错误
 
