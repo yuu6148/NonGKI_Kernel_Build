@@ -1,4 +1,8 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 4**
+    - 修正 KPM Patcher 部分执行内容
+    - 增加 KPM Patcher 部分判定
+
 - **Ver.1.4 Fixed 3**
     - 修正 说明文件 部分文本
 
