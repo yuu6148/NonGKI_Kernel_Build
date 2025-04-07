@@ -1,4 +1,7 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 3**
+    - 修正 说明文件 部分文本
+
 - **Ver.1.4 Fixed 2**
     - 增加 谷歌Pixel 9 Series 设备
     - 对 Arch Linux 示例YAML 增加rustup
