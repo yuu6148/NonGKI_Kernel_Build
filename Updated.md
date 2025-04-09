@@ -1,4 +1,9 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 7**
+    - 为 支持列表 增加 Re:Kernel、KPM 显示
+    - 为 一加8 Realking 增加 Re:Kernel 支持
+    - 将 一加8 Realking KernelSU分支切换至magic
+
 - **Ver.1.4 Fixed 6**
     - 增加 部分patch补丁 对已存在修补的判定
 
