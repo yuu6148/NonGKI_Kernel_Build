@@ -1,4 +1,10 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 5**
+    - 增加 说明文件 对 Proton Clang 13 的说明
+    - 增加 Arch Linux YAML示例文件 对切换Python版本的支持
+    - 修改 支持列表 和 发布列表 对部分机型的描述
+    - 调整 Clang 相关的部分判定顺序
+
 - **Ver.1.4 Fixed 4**
     - 修正 KPM Patcher 部分执行内容
     - 增加 KPM Patcher 部分判定
