@@ -466,6 +466,7 @@ jobs:
       - name: ReKernel Supported
         run: |
           cd $GITHUB_WORKSPACE/device_kernel/
+          git clone https://github.com/${{ env.PATCHES_SOURCE }}.git -b ${{ env.PATCHES_BRANCH }} NonGKI_Kernel_Patches --depth=1 # It's not necessary.
           cp NonGKI_Kernel_Patches/kona_oos/4_19_rekernel.patch ./
           cp NonGKI_Kernel_Patches/kona_oos/rekernel_fixed.patch ./
 
