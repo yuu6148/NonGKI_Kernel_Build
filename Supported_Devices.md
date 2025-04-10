@@ -1,6 +1,6 @@
 **Only Chinese:**  
 | 设备名称 | 设备代号 | 内核/作者/名称 | 系统 | Android | 打包方式 | KernelSU | SuSFS | LXC | VFS Hook | KPM | Re:Kernel | 维护状态 |  
-|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|  
+|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|  
 | 一加 8  | instantnoodle | 4.19/ppajda/XTD | OxygenOS/ColorOS 13.1 | 13 | AnyKernel3 | Magic | ✅ | ❌ | ❌ | ❌ | ❌ | Stable |  
 | 一加 8  | instantnoodle | 4.19/Nameless/Nameless | Nameless 15 | 15 | AnyKernel3 | rsuntk | ✅ | ❌ | ❌ | ❌ | ❌ | Beta |  
 | 一加 8  | instantnoodle | 4.19/Rohail33/Realking | OxygenOS/ColorOS 13.1 | 13 | AnyKernel3 | rsuntk | ✅ | ❌ | ❌ | ✅ | ❌ | Suspend |  
