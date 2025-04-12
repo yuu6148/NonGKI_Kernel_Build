@@ -1,4 +1,8 @@
 ## 项目更新日志
+- **Ver.1.4 Fixed 10**
+    - 修正 Arch Linux YAML 对更新无法执行的错误
+    - 修正 小米5 Crdroid 对更新无法执行的错误
+
 - **Ver.1.4 Fixed 9**
     - 增加 一加8 Realking 移除自带no-kprobe patch
     - 切换 一加8 Realking no-kprobe 至 VFS
