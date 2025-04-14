@@ -616,6 +616,7 @@ jobs:
             mv oImage Image
             echo "Hook Image successfully !"
           fi
+         fi
 
       - name: Make Latest Boot Image
         if: env.PACK_METHOD == 'MKBOOTIMG'
