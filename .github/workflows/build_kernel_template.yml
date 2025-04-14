@@ -614,6 +614,7 @@ jobs:
             mv oImage Image
             echo "Hook Image successfully !"
           fi
+        fi
 
       - name: Make Anykernel3 Flasher
         if: env.PACK_METHOD == 'Anykernel3'

@@ -572,7 +572,7 @@ jobs:
 
           if [[ -f "$IMAGE_DIR/Image.gz-dtb" ]]; then
             if [ -f "include/linux/set_memory.h" ]; then
-                    if [ -d "out/arch/arm64/boot/dts" ]; then
+                if [ -d "out/arch/arm64/boot/dts" ]; then
                     rm -f $IMAGE_DIR/Image.gz-dtb
                     rm -f $IMAGE_DIR/Image.gz
                     cp patch $IMAGE_DIR/
