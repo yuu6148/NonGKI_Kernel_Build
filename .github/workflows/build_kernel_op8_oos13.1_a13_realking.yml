@@ -615,8 +615,8 @@ jobs:
             ./patch
             mv oImage Image
             echo "Hook Image successfully !"
+            fi
           fi
-         fi
 
       - name: Make Latest Boot Image
         if: env.PACK_METHOD == 'MKBOOTIMG'
